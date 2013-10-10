@@ -1,0 +1,17 @@
+Source: python-cchardet
+Maintainer: Ben Carrillo <ben@futeisha.org>
+Section: python
+Priority: optional
+Uploaders: Micah Anderson <micah@debian.org>
+Homepage: https://github.com/PyYoshi/cChardet
+Build-Depends: python-setuptools (>= 0.6b3), python-all-dev (>= 2.6.6-3), debhelper (>= 7),
+ libuchardet-dev
+Standards-Version: 3.9.4
+
+Package: python-cchardet
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, libuchardet0
+Provides: ${python:Provides}, cchardet
+Description: Universal encoding detector. 
+ cChardet is high speed universal character encoding detector. - python binding to libuchardet
+ .
