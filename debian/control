@@ -13,5 +13,6 @@ Architecture: any
 Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}, libuchardet0
 Provides: ${python:Provides}, cchardet
 Description: Universal encoding detector. 
- cChardet is high speed universal character encoding detector. - python binding to libuchardet
+ cChardet is high speed universal character encoding detector. This package
+ contains the python bindings to libuchardet
  .
